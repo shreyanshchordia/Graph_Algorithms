@@ -112,7 +112,7 @@ void find_directions(int* arr, int** matrix, int** visited, int x, int y, int ro
     }
 }
 
-int find_paths(int** matrix, int row, int col, int start, int end, int depth){
+int find_paths(int** matrix, int row, int col, int start_x, int start_y, int depth){
     int** visited = new int*[row];
     for(int i=0 ; i<row; i++){
         visited[i] = new int[col];
@@ -123,8 +123,8 @@ int find_paths(int** matrix, int row, int col, int start, int end, int depth){
 
     Queue q(row*col + 1);
 
-    q.push(start, end, depth); // start
-    visited[start][end] = 1;
+    q.push(start_x, start_y, depth); // start
+    visited[start_x][start_y] = 1;
 
     while(!q.empty()){
         int a = 0, b = 0, c = 0;
