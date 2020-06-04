@@ -4,37 +4,7 @@ We are given m x n matrix which can have a number between 0 and 7.
 
 Each number represents a pipe with a shape as follows:
 
-0 => NO PIPE
-
-          !!
-1 =>   ===!!==
-          !!
-
-
-          !!
-2 =>      !!
-          !!
-
-          
-3 =>   =======
-          
-
-          !!
-4 =>      !!==
-                  
-          
-          
-5 =>      !!==
-          !!
-
-          
-6 =>   ===!!
-          !!
-
-
-          !!
-7 =>   ===!!
-
+![problem example](https://github.com/shreyanshchordia/cpp/blob/master/img/pipes.png?raw=true)
 
 Two pipes are considered connected if their end points connect. For e.g.
 If matrix is as follows:
