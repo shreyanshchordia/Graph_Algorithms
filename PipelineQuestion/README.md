@@ -4,8 +4,9 @@ We are given m x n matrix which can have a number between 0 and 7.
 
 Each number represents a pipe with a shape as follows:
 
-![problem example](https://github.com/shreyanshchordia/cpp/blob/master/img/pipes.png?raw=true)
-
+<p align='center'>
+  <img src='https://github.com/shreyanshchordia/cpp/blob/master/img/pipes.png?raw=true'></img>
+</p>
 Two pipes are considered connected if their end points connect. For e.g.
 If matrix is as follows:
 0040
