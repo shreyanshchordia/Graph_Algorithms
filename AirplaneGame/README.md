@@ -6,4 +6,6 @@ airplane meets the bomb with score 0 the airplane dies and game is over. The use
 throughout the game where he can detonate all the bombs in the next 5 rows. Find the maximum number of
 points (coins) that can be collected by the user. Number of rows 1 <= N <= 12. Return -1 if score < 0
 
-![problem example](https://github.com/shreyanshchordia/cpp/blob/master/img/airplane.png?raw=true)
+<p align='center'>
+  <img src='https://github.com/shreyanshchordia/cpp/blob/master/img/airplane.png?raw=true'></img>
+</p>
