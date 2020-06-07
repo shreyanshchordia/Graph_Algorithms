@@ -10,14 +10,14 @@ All four cells should be connected  (like  one island)
 ### Input 
 
 <p align="center">
-  <img src="https://github.com/shreyanshchordia/cpp/blob/master/img/TowerInput.png?raw=true">
+  <img src="https://github.com/shreyanshchordia/GraphsUsingCPP/blob/master/img/TowerInput.png?raw=true">
 </p>
 
 ### Output
 Square of  Maximum number of people covered by 4 towers (Fig 2)
 
 <p align="center">
-  <img src="https://github.com/shreyanshchordia/cpp/blob/master/img/TowerOutput.png?raw=true">
+  <img src="https://github.com/shreyanshchordia/GraphsUsingCPP/blob/master/img/TowerOutput.png?raw=true">
 </p>
 
 ## Approach
