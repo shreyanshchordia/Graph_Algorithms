@@ -7,5 +7,5 @@ throughout the game where he can detonate all the bombs in the next 5 rows. Find
 points (coins) that can be collected by the user. Number of rows 1 <= N <= 12. Return -1 if score < 0
 
 <p align='center'>
-  <img src='https://github.com/shreyanshchordia/cpp/blob/master/img/airplane.png?raw=true'></img>
+  <img src='https://github.com/shreyanshchordia/GraphsUsingCPP/blob/master/img/airplane.png?raw=true'></img>
 </p>
