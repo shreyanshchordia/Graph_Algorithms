@@ -11,3 +11,17 @@ The second line contains  space separated integers, representing the sequence .
 ## Output
 
 An integer representing the answer, that is, the minimum number of operations needed to make the permutation into increasing order.
+
+## Sample
+
+Input :
+
+3  
+3 1 2
+
+Output :
+
+2
+
+## Explanation
+A possible way is to reverse [1,3] , and then [1,2].
