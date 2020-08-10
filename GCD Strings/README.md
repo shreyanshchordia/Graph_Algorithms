@@ -1,0 +1,1 @@
+This is a recursion problem and the question is clearly stated in the following <a href="https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/practice-problems/algorithm/gcd-strings/description/">LINK</a> 
