@@ -1,98 +1,74 @@
-// finding hamiltonian cycles
-// NOTE - Since I didnt't have test cases to try on, hence this code may fail on edge cases (0 filled arrays, {0,1} vertex graphs, etc)
+/*
+Finding Hamiltonian Cycles in a Graph
+*/
 
 #include <iostream>
-#include <cstring>
+#include <algorithm>
+#include <vector>
+#include <unordered_set>
+
 using namespace std;
 
-bool visited_all(int* visited, int V){ // checks if all points are visited
+void hamiltonian_cycles(vector<vector<int>> graph, vector<int> path, int V, unordered_set<int> visited, int index, vector<vector<int>>& result){
 
-    for(int i=0; i<V; i++){
-        if(visited[i] == 0) return false;
-    }
+    visited.insert(index); // marking the vertex as visited
 
-    return true;
-}
+    path.push_back(index); // adding the vertex to the path
 
-int add_path(int* path, int index, int V){ // adds a point to the path 
-                                           // and returns index at which path is added
-    for(int i=0; i<V; i++){
-        if(path[i] == 0){
-            path[i] = index + 1;
-            return i;
-        }
-    }
-    return -1; // should never reach here
-}
+    if (visited.size() != V ){
 
-// Using DFS algorithm. Hence Backtracking
-int finding_paths(int** graph, int x, int* visited, int* path, int V, bool found, int& count){
-    if (found){
-        for(int i=0; i<V; i++){
-            cout<<path[i]<<" ";
-        }
-        cout<<1<<endl;
-        return ++count;
-    }
+        // moving forward
+        for(int j=0; j<V; j++){
 
-    if (! visited_all(visited, V)){
+            if (graph[index][j] == 1 && (visited.find(j) == visited.end()) ){
 
-        for(int i=0; i<V; i++){
-            
-            if(graph[x][i]==1 && visited[i] != 1){
-                
-                bool add;
-                // establishing new path
-                visited[i] = 1;
-                int index = add_path(path, i, V);
+                hamiltonian_cycles(graph, path, V, visited, j, result); // moving forward
 
-                // moving ahead on the chosen path
-                finding_paths(graph, i, visited, path, V, found, count);
-
-                // backtracking 
-                visited[i] = 0; 
-                path[index] = 0;
             }
+
+            else continue;
         }
     }
 
-    else{
-        if(graph[x][0] == 1){
-            bool f;
-            finding_paths(graph, x, visited, path, V, f=true, count);
-        }
+    // all vertices are visited AND you can return back to vertex 0 from the last index
+    else if (graph[index][0] == 1){
+
+        path.push_back(0); // push 0th vertex to complete the cycle
+        result.push_back(path); // push the cycle in the result
     }
 
-    return count;
+    return;
 }
+
 
 int main(){
-    int t; cin>>t;
-    while(t--){
-        int V; cin>>V; // vertices
+    int V; cin>> V; // Number of vertices in the Graph
 
-        int** graph = new int*[V];
+    vector<vector<int>> graph (V, vector<int> (V, 0)); // setting up the Graph
 
-        for(int i=0;i<V;i++){
-            graph[i] = new int[V]; // building the graph
+    for(int i=0; i<V; i++){
+        for(int j=0; j<V; j++){
+            cin>>graph[i][j]; // inputting values
         }
-
-        for (int i=0;i<V;i++){
-            for(int j=0;j<V;j++){
-                cin>>graph[i][j]; // getting values for the graphs
-            }
-        }
-
-        int* visited = new int[V];
-        memset(visited, 0, V * sizeof(int)); // creating the visited array
-
-        int* path = new int[V];
-        memset(path, 0, V * sizeof(int)); // creating array for saving paths
-
-        bool found = false;
-        visited[0] = 1; // since we start from the first vertex, it is considered visited
-        path[0] = 1; // framing the paths that will be found
-        int count = 0;
-        cout<<"\n"<<finding_paths(graph, 0, visited, path, V, found, count)<<" paths found!\n";
     }
+
+    vector<int> path; // generating path of the cycle
+
+    unordered_set<int> visited; // set of all visited vertices
+
+    vector<vector<int>> result; // storing all possible cycles in the result
+
+    int index = 0; // as we begin with index 0
+
+    hamiltonian_cycles(graph, path, V, visited, index, result); // search for the cycles begins
+
+    for(auto p: result){
+        for(auto vertex: p){
+            cout<< vertex <<" "; 
+        }
+        cout<< endl;
+    }
+
+    cout << result.size() <<" hamiltonian cycles found in the graph!!"; 
+    return 0;
 }
