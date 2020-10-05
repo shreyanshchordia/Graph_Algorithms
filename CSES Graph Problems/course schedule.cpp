@@ -1,7 +1,8 @@
-/* mamba mentality */
 #include "bits/stdc++.h"
 using namespace std;
+
 typedef long double ld;
+
 #define int long long
 typedef pair<int,int> pii;
 #define RAGE ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
