@@ -1,5 +1,3 @@
-/ PUSH YOUR LIMITS.!!
- 
 #include<bits/stdc++.h>
 using namespace std;
  
