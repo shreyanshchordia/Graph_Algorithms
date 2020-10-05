@@ -1,10 +1,9 @@
-/* 
-    AABRA KA DABRA.. !! 
-*/
 #include "bits/stdc++.h"
 using namespace std;
+
 typedef long double ld;
 typedef pair<int,int> pii;
+
 #define int long long
 #define RAGE ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define rep(i,n) for(i=0; i <n; i++)
@@ -21,17 +20,6 @@ typedef pair<int,int> pii;
 #define inf LLONG_MAX
 #define minf LLONG_MIN 
 const int mod = (int)(1e9+7);
-
-int power(int x,int n)
-{   
-    if(n==0)    return 1;
-    if(n==1)    return x%mod;
-    if(n%2==0)  {   int y = power(x,n/2)%mod;return (y*y)%mod;}
-    if(n&1)     {   int y = power(x,n-1);return (x%mod * y%mod)%mod;}
-    return 0;
-}
-bool is_power_2(int n)  { return log2(n)==floor(log2(n));}
-bool is_prime(int n){   for(int i=2; i*i<=n; i++)   if(n%i==0)  return 0;   return 1;}
 
 int dx[]    =  {-1 ,  0,  1,  0,  -1,  -1,  1,   1};
 int dy[]    =  { 0 ,  1,  0, -1,  -1,   1,  1,  -1};
