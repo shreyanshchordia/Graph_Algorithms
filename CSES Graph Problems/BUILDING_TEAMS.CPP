@@ -1,5 +1,3 @@
-// PUSH YOUR LIMITS.!!
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -80,19 +78,10 @@ void solve()
 signed main()
 {
     RAGE;
-    #ifndef ONLINE_JUDGE
-        freopen("input.txt", "r", stdin);
-        freopen("output.txt", "w", stdout);
-    #endif
-        
     int t=1;
     //  cin>>t;
     while(t--)
         solve();
-
-    #ifndef ONLINE_JUDGE
-        cout<<"\nTime Elapsed: " << 1.0*clock() / CLOCKS_PER_SEC << " sec\n";
-    #endif
 
     return 0;
 }
