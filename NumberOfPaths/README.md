@@ -1,0 +1,2 @@
+This algorithm counts the total number of ways or paths that exist between two vertices in a directed graph. These paths don’t contain a cycle, the simple enough reason is that a cycle contains an infinite number of paths and hence they create a problem.
+The problem can be solved using backtracking, that says take a path and start walking on it and check if it leads us to the destination vertex then count the path and backtrack to take another path. If the path doesn’t lead to the destination vertex, discard the path.
