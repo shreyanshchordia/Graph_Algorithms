@@ -2,14 +2,6 @@
 using namespace std;
 #define ll long long int
 #define pb push_back
-void OJ()
-{
-#ifndef ONLINE_JUDGE
-    freopen("input.in", "r", stdin);
-    freopen("output.in", "w", stdout);
-#endif
-    //FIFO;
-}
 
 vector<vector<int> > G; // To store the graph in Adjacency List form.
 const int M = 21;
@@ -75,7 +67,7 @@ int LCA_using_time(int u, int v)
 
 int main()
 {
-    OJ();
+   
     int n, m;
     cin >> n >> m;
     G.resize(n + 1);
@@ -99,9 +91,9 @@ int main()
 
     // The below code will return the LCA of two nodes in the graph.
     /*
+
     cout << LCA_using_time(9, 15) << endl;
-    cout << LCA_using_time(18, 15) << endl;
-    cout << LCA_using_time(15, 15) << endl;
+    
     */
 
     return 0;
