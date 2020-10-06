@@ -2,6 +2,7 @@
 using namespace std;
 #define ll long long int
 #define pb push_back
+// We use the concept of binary Lifting to find the LCA of two nodes.
 
 vector<vector<int> > G; // To store the graph in Adjacency List form.
 const int M = 21;
@@ -67,7 +68,9 @@ int LCA_using_time(int u, int v)
 
 int main()
 {
-   
+
+    /* n is no.of nodes, m is no.of edges*/
+
     int n, m;
     cin >> n >> m;
     G.resize(n + 1);
@@ -89,11 +92,11 @@ int main()
     dfs_time(1, 0);
     calc_sparse_table(1, 0);
 
+
     // The below code will return the LCA of two nodes in the graph.
     /*
+    cout << LCA_using_time(2,1) << endl;
 
-    cout << LCA_using_time(9, 15) << endl;
-    
     */
 
     return 0;

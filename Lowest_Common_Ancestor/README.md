@@ -2,7 +2,7 @@ LOWEST COMMON ANCESTOR (A Standard Graph Algorithm).
 	
 Description :-
 
-Given a graph consisting of Nodes.We want to get the Lowest Common Ancestor of any two nodes of the graph, for several number of querries.
+Given a graph without cycle consisting of Nodes.We want to get the Lowest Common Ancestor of any two nodes of the graph, for several number of querries.
 Constraints: 
 The number of nodes are upto 10^5.(1 based Indexing).
 
