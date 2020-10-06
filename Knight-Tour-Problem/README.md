@@ -3,7 +3,15 @@
 
 <p>Although researchers have studied many different algorithms to solve the knight’s tour problem, a graph search is one of the easiest to understand and program.</p>
 
+<p> Each square on the chessboard can be represented as a node in the graph. Each legal move by the knight can be represented as an edge in the graph. As show in image below</p>
 
 <p align='center'>
   <img src='https://runestone.academy/runestone/books/published/pythonds/_images/knightmoves.png'></img>
+</p>
+
+<p> figure below shows the complete graph of possible moves on an eight-by-eight board. There are exactly 336 edges in the graph. Notice that the vertices corresponding to the edges of the board have fewer connections (legal moves) than the vertices in the middle of the board.
+</p>
+
+<p align='center'>
+  <img src='https://runestone.academy/runestone/books/published/pythonds/_images/bigknight.png'></img>
 </p>
