@@ -1,4 +1,4 @@
-from graph import Graph
+from graph import Graph, Vertex
 
 def knightGraph(bdSize):
     ktGraph = Graph()
