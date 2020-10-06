@@ -1,6 +1,6 @@
 // { Driver Code Starts
 // Initial Template for C++
-/* script for test case http://code.geeksforgeeks.org/PetjYq */
+
 #include <bits/stdc++.h>
 
 using namespace std;
