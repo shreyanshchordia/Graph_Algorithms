@@ -12,15 +12,15 @@ The first line of input will be the number of testcases **T**, then T test cases
 For each testcase in a new line, print the number of islands present.
 
 **Expected Time Complexity: O(N*M).\
-Expected Auxiliary Space: O(N*M).**\
+Expected Auxiliary Space: O(N*M).**
 
 **Constraints:\
 1 <= T <= 100\
 1 <= N, M <= 100\
-0 <= A[i][j] <= 1**\
+0 <= A[i][j] <= 1**
 
 **Example :\
-Input**\
+Input**
 
 2\
 3 3\
@@ -30,9 +30,9 @@ Input**\
 
 **Output**\
 2\
-2\
+2
 
-**Explanation:**\
+**Explanation:**
 
 Testcase 1: The graph will look like
 **1 1** 0\
