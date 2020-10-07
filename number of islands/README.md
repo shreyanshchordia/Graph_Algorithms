@@ -26,7 +26,7 @@ Input**
 3 3\
 1 1 0 0 0 1 1 0 1\
 4 4\
-1 1 0 0 0 0 1 0 0 0 0 1 0 1 0 0\
+1 1 0 0 0 0 1 0 0 0 0 1 0 1 0 0
 
 **Output**\
 2\
@@ -34,7 +34,7 @@ Input**
 
 **Explanation:**
 
-Testcase 1: The graph will look like
+Testcase 1: The graph will look like\
 **1 1** 0\
 0 0 **1**\
 *1* 0 **1**\
@@ -42,7 +42,7 @@ Here, two islands will be formed
 First island will be formed by elements **{A[0][0] ,  A[0][1], A[1][2], A[2][2]}**
 Second island will be formed by *{A[2][0]}*.
 
-Testcase 2: The graph will look like
+Testcase 2: The graph will look like\
 **1 1** 0 0\
 0 0 **1** 0\
 0 0 0 **1**\
