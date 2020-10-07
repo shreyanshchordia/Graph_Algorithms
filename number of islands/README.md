@@ -11,42 +11,42 @@ The first line of input will be the number of testcases **T**, then T test cases
 **Output**:
 For each testcase in a new line, print the number of islands present.
 
-**Expected Time Complexity: O(N*M).
-Expected Auxiliary Space: O(N*M).**
+**Expected Time Complexity: O(N*M).\
+Expected Auxiliary Space: O(N*M).**\
 
-**Constraints:
-1 <= T <= 100
-1 <= N, M <= 100
-0 <= A[i][j] <= 1**
+**Constraints:\
+1 <= T <= 100\
+1 <= N, M <= 100\
+0 <= A[i][j] <= 1**\
 
-**Example :
-Input**
+**Example :\
+Input**\
 
-2
-3 3
-1 1 0 0 0 1 1 0 1
-4 4
-1 1 0 0 0 0 1 0 0 0 0 1 0 1 0 0
+2\
+3 3\
+1 1 0 0 0 1 1 0 1\
+4 4\
+1 1 0 0 0 0 1 0 0 0 0 1 0 1 0 0\
 
-**Output**
-2
-2
+**Output**\
+2\
+2\
 
-**Explanation:**
+**Explanation:**\
 
 Testcase 1: The graph will look like
-**1 1** 0
-0 0 **1**
-*1* 0 **1**
+**1 1** 0\
+0 0 **1**\
+*1* 0 **1**\
 Here, two islands will be formed
 First island will be formed by elements **{A[0][0] ,  A[0][1], A[1][2], A[2][2]}**
 Second island will be formed by *{A[2][0]}*.
 
 Testcase 2: The graph will look like
-**1 1** 0 0
-0 0 **1** 0
-0 0 0 **1**
-0 *1* 0 0
+**1 1** 0 0\
+0 0 **1** 0\
+0 0 0 **1**\
+0 *1* 0 0\
 Here, two islands will be formed
 First island will be formed by elements **{A[0][0] ,  A[0][1], A[1][2], A[2][3]}**
 Second island will be formed by *{A[3][1]}*.
