@@ -5,7 +5,7 @@
     We are looking for <b>Quality</b> and <b>not Quantity</b> 
 
 - ### Languages
-    Only **[C++](https://en.wikipedia.org/wiki/C%2B%2B)** or **[Python]**(https://en.wikipedia.org/wiki/Python_(programming_language))
+    Only **[C++](https://en.wikipedia.org/wiki/C%2B%2B)** or **[Python](https://en.wikipedia.org/wiki/Python_(programming_language))**
     
 - ### About the Repository  
     We are focusing on building solutions for problems on Graphs. Hence we are looking for **algorithms** like: 
