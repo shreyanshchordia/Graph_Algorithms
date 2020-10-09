@@ -19,11 +19,11 @@
      
     You can get good **problem statements on Graphs** from sites like:  
     
-     1. <a href = "https://www.geeksforgeeks.org/">GeekForGeeks</a>  
-     2. <a href = "https://www.interviewbit.com/">InterviewBit</a>  
-     3. <a href = "https://leetcode.com/">LeetCode</a>  
-     4. <a href = "https://www.hackerearth.com/challenges/">HackerEarth</a>  
-     5. <a href = "https://www.hackerrank.com/">HackerRank</a>  
+     1. **[GeekForGeeks](https://www.geeksforgeeks.org/)**  
+     2. **[InterviewBit](https://www.interviewbit.com/)**   
+     3. **[LeetCode](https://leetcode.com/)** 
+     4. **[HackerEarth](https://www.hackerearth.com/challenges/)** 
+     5. **[HackerRank](https://www.hackerrank.com/)**
 
 - ### How To Contribute  
     - You need to choose a **problem statement**, the solution to which can be derived using Graph Algorithms.
