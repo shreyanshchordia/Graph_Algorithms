@@ -19,29 +19,29 @@ Output a single integer representing the maximum number of the train routes whic
 
 ## Example1
 
-INPUT:
-5 5 3
-1 2 1
-2 3 2
-1 3 3
-3 4 4
-1 5 5
-3 5
-4 5
-5 5
+INPUT:  
+5 5 3  
+1 2 1  
+2 3 2  
+1 3 3  
+3 4 4  
+1 5 5  
+3 5  
+4 5  
+5 5  
+  
+OUTPUT:  
+2  
 
-OUTPUT:
-2
+## Example2
 
-##Example2
-
-INPUT:
-2 2 3
-1 2 2
-2 1 3
-2 1
-2 2
-2 3
-
-OUTPUT:
-2
+INPUT:  
+2 2 3  
+1 2 2  
+2 1 3  
+2 1  
+2 2  
+2 3  
+  
+OUTPUT:  
+2  
