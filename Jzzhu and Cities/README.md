@@ -45,3 +45,6 @@ INPUT:
   
 OUTPUT:  
 2  
+  
+## Algorithm Used
+Dijkstra Shortest Path Algorithm
