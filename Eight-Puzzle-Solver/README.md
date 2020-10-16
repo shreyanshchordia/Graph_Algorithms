@@ -6,13 +6,19 @@ Eight Puzzle is a problem wherein there is a 3 by 3 grid and 9 tiles in total.
 The tiles include numbers from 1 to 8 and a blank tile.
 
 The initial state of the puzzle is any random state that can be solvable. One simple example is given below:
+
 1 2 3
+
 4 5 _
+
 7 8 6
 
 The user can only move Blank Tile so that he can arrange the 9 tiles in the following manner:
+
 1 2 3
+
 4 5 6
+
 7 8 _
 
 Here, _ denotes the blank tile. The user can solve the puzzle by shifting the blank tile in Bottom direction.
