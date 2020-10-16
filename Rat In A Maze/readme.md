@@ -14,14 +14,14 @@ You are given a N*N maze with a rat placed at maze[0][0]. Find and print all pat
 
 ## SAMPLE INPUT :
 
-`3 3` 
-`1 0 1` 
-`1 0 1` 
-`1 1 1`
+`3 3`   
+`1 0 1`   
+`1 0 1`   
+`1 1 1`  
 
 ## SAMPLE OUTPUT :
 
-`1 0 0` 
-`1 0 0` 
-`1 1 1`
+`1 0 0`   
+`1 0 0`   
+`1 1 1`  
 
