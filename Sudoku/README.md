@@ -16,7 +16,7 @@ Problem is on Interviewbit. [Link](https://www.interviewbit.com/problems/sudoku/
 7 . . . 2 . . . 6\
 . 6 . . . . 2 8 .\
 . . . 4 1 9 . . 5\
-. . . . 8 . . 7 9\
+. . . . 8 . . 7 9
 
 #### Output: 
 5 3 4 6 7 8 9 1 2  
